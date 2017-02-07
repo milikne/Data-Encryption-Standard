@@ -1,0 +1,6 @@
+System.out.println();
+System.out.println("ZADATAK");
+String bs="01001000";
+int b=StringToInt(bs);
+for (int i=0;i<8;i++)
+System.out.println(sBox(i,b));
